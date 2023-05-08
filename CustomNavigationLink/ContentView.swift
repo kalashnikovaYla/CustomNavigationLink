@@ -7,20 +7,49 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Item {
+    let name: String
+}
+
+struct ContentView2: View {
+    
+    let item: Item
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        Color.blue
+            .navigationTitle(item.name)
+    }
+}
+
+struct ContentView: View {
+    
+    @State var isShow = false
+    let item: Item?
+    
+    var body: some View {
+        ZStack {
+            Color.green
+            VStack {
+                Button("Go") {
+                    isShow.toggle()
+                }
+                
+                Button("Go2") {
+                    isShow.toggle()
+                }
+            }
+            .toolbar(.hidden)
+            .navigation(model: item ?? Item(name: ""), isActive: $isShow) { model in
+                ContentView2(item: model)
+            }
+            
         }
-        .padding()
+        Text("")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(item: nil)
     }
 }

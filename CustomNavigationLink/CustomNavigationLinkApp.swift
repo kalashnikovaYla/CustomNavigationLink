@@ -11,7 +11,9 @@ import SwiftUI
 struct CustomNavigationLinkApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView(item: Item(name: "Go22"))
+            }
         }
     }
 }

@@ -11,6 +11,7 @@
 		1878A74A2A09704000B40C93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878A7492A09704000B40C93 /* ContentView.swift */; };
 		1878A74C2A09704B00B40C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1878A74B2A09704B00B40C93 /* Assets.xcassets */; };
 		1878A74F2A09704B00B40C93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1878A74E2A09704B00B40C93 /* Preview Assets.xcassets */; };
+		1878A7562A0975CA00B40C93 /* Navigation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878A7552A0975CA00B40C93 /* Navigation+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1878A7492A09704000B40C93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1878A74B2A09704B00B40C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1878A74E2A09704B00B40C93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1878A7552A0975CA00B40C93 /* Navigation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigation+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1878A7472A09704000B40C93 /* CustomNavigationLinkApp.swift */,
 				1878A7492A09704000B40C93 /* ContentView.swift */,
+				1878A7552A0975CA00B40C93 /* Navigation+Extensions.swift */,
 				1878A74B2A09704B00B40C93 /* Assets.xcassets */,
 				1878A74D2A09704B00B40C93 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				1878A74A2A09704000B40C93 /* ContentView.swift in Sources */,
 				1878A7482A09704000B40C93 /* CustomNavigationLinkApp.swift in Sources */,
+				1878A7562A0975CA00B40C93 /* Navigation+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
